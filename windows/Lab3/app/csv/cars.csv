@@ -1,0 +1,7 @@
+id,regNumber,ownerId,mileage,companyName,carName
+0,1111,2,2332,Opel,"Vectra c"
+1,2222,0,2000,BMV,X5
+2,3333,2,10000,BMV,X4
+3,4444,2,386,BMV,x5
+4,131231,2,29,BMV,X5
+5,21312,0,400,BMV,Volt
