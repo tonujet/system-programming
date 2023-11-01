@@ -1,1 +1,4 @@
 .vscode/
+.idea/
+reports/
+cmake-build-debug/
