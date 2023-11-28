@@ -6,6 +6,7 @@ LIBDIR=./lib/
 
 EXEC=out
 
+
 # fPIC computer instruction dependent of concrete memoty lines. Goto instruction bind no to memory cells but to shifts(+10 +100 etc..)
 # -L points where libraries are located
 # -lsmth connect to binary specific library

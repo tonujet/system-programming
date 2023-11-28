@@ -7,7 +7,7 @@ LIBDIR=./lib/
 EXEC=out
 
 
-# ar cr -c ompile static library
+# ar cr -compile static library
 
 $(EXEC): $(addprefix $(OBJDIR),main.o  UserInterface.o) $(addprefix $(LIBDIR),libOwnerView.a libCarView.a libTaxiCompany.a)
 	$(CC) -o $@ $(OBJDIR)main.o $(OBJDIR)UserInterface.o -L$(LIBDIR) -lOwnerView -lCarView -lTaxiCompany
